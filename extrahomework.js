@@ -40,7 +40,8 @@ for (i=0; i<array.length; i++){
  Write a piece of code for getting only even numerical values from an array.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let array = [200,90,70,55,23,56,450,1,31,79,68,90]
+let onlyEvenNumbers = [ ]
 
 /* EXTRA 5
  Write a piece of code for deleting only even entries from an array.
