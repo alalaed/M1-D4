@@ -1,9 +1,17 @@
 
+let withVowels = "this is a string supposed to be without any vowels"
+let withoutVowels = " "
+for ( i=0; i<withVowels.length; i++)
+switch (withVowels[i]){
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+    case "a":
+    case "a":
+    break 
+    default: withoutVowels += withVowels[i]
+} 
 
-let array = [200,90,70,55,23,56,450,1,31,79,68,90]
-let minimum = array[0]
-for (i=0; i<array.length; i++){
-   
-    if(array[i]<minimum){ minimum = array[i]
-    } 
-}   console.log(minimum)
+console.log(withoutVowels)
