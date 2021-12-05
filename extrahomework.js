@@ -82,7 +82,8 @@ console.log(withoutVowels)
  Write a piece of code for increasing all the numerical values in a array by 1.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let increasedArray = []
+for ()
 
 /* EXTRA 8 
  Replace all the strings contained in an array with their length.
