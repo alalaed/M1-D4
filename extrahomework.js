@@ -94,7 +94,14 @@ console.log(increasedArray)
  es.: ["strive", "is", "great"] => [6, 2, 5]
 */
 
-/* WRITE YOUR ANSWER HERE */
+
+let lengthArray = [ ]
+let mixedArray = ["banana", "apple",  "orange"]
+for ( i=0; i<mixedArray.length; i++){
+    let length = mixedArray[i].length
+    lengthArray.push(length)
+}   console.log(lengthArray)
+
 
 /* WHEN YOU ARE FINISHED
  Upload the .js file on Eduflow before 5PM CET. In the next days we'll also learn how to use GIT!
