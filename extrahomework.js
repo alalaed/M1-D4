@@ -83,7 +83,11 @@ console.log(withoutVowels)
 */
 
 let increasedArray = []
-for (i = 0; i<array.length; i++){‚}
+for (i = 0; i<array.length; i++){
+    let newValue = array[i] + 1
+    increasedArray.push(newValue)
+}   
+console.log(increasedArray)
 
 /* EXTRA 8 
  Replace all the strings contained in an array with their length.
